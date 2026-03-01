@@ -1,0 +1,7 @@
+Step 1: sudo apt update && sudo apt install nginx -y
+Step 2: wget -O static_web.zip https://www.tooplate.com/download/2153_fireworks_composer
+Step 3: sudo apt install unzip -y
+Step 4: unzip static_web.zip
+Step 5: sudo cp -r 2153_fireworks_composer/. /var/www/html/
+Step 6: sudo systemctl start nginx
+Step 7: sudo systemctl enable nginx
